@@ -22,16 +22,17 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-gradient-to-br from-[#f8f9ff] to-[#dee6f3] md:bg-none">
+      {/* Background image - hidden on mobile */}
       <img
         src={heroBackground}
         alt=""
-        className="w-full h-auto object-cover min-h-[800px] sm:min-h-[700px] md:min-h-[650px] lg:min-h-[600px]"
+        className="hidden md:block w-full h-auto object-cover min-h-[800px] sm:min-h-[700px] md:min-h-[650px] lg:min-h-[600px]"
       />
 
-      {/* Content positioned absolutely over the image */}
-      <div className="absolute top-0 left-0 w-full h-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+      {/* Content container */}
+      <div className="md:absolute md:top-0 md:left-0 w-full h-full">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center py-12 md:py-0">
           {/* Left Content */}
           <div className="max-w-[600px] lg:max-w-[800px]">
             {/* Google Rating */}

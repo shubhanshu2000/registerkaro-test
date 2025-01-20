@@ -9,7 +9,7 @@ const TrustedSection = () => {
     {
       name: "Oracle",
       image: oracle,
-      className: "w-16 sm:w-20 lg:w-24", // Responsive widths
+      className: "w-16 sm:w-20 lg:w-24",
     },
     {
       name: "Morpheus",

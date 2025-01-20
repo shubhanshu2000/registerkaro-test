@@ -46,7 +46,6 @@ const FAQSection = () => {
       answer:
         "Yes, you can recover deleted files from your desktop using our software. The process is simple and effective, with a high recovery rate for recently deleted files.",
     },
-    // Add more FAQs...
   ];
   const visibleFaqs = showAll ? faqs : faqs.slice(0, 5);
 

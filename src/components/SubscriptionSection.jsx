@@ -5,7 +5,7 @@ const CheckIcon = () => (
     viewBox="0 0 20 20"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="text-[#1C4670] bg-white rounded-full p-1 min-w-[20px]" // Added min-width
+    className="text-[#1C4670] bg-white rounded-full p-1 min-w-[20px]"
   >
     <path
       d="M16.6666 5L7.49992 14.1667L3.33325 10"
